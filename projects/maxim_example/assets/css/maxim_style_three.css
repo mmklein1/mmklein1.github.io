@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/imgs/image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 4em;
+    color: black;
+    font-family: "Arial", sans-serif;
+}
+
+#red {
+    color: red;
+    font-style: oblique;
+    animation-name: red;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    font-size: 100px
+}
+
+
+@keyframes red {
+    
+    0%{
+       font-size: 2em; 
+    }
+    100%{
+       font-size: 5em; 
+    }
+

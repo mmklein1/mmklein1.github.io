@@ -1,0 +1,96 @@
+body {
+    background-color: antiquewhite;
+    padding: 20px
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100px
+}
+
+ul {
+    /*   to get rid of the bullets in the list */
+    list-style-type: none;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+li {
+    /*    To have them go next to each other*/
+    display: inline-block;
+    /*    to give space around them*/
+    margin: 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    font-size: 15px
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    font-size: 15px;
+}
+.projectone{
+    width: 600px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.container {
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+    display: flex;
+    flex-direction: row
+    
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFFFFF;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: tan;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+a:hover {
+  color: tan;
+}

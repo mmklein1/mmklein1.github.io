@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 4em;
+    color: black;
+    font-family: "Arial", sans-serif;
+}
+
+#red {
+    color: white;
+    font-style: oblique;
+    animation-name: red;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+#YES {
+    animation-name: YES;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes red {
+    0% {
+        color: white;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@keyframes YES {
+      
+    0%{
+       font-size: 2em; 
+    }
+    100%{
+       font-size: 5em; 
+    }
+    
+}

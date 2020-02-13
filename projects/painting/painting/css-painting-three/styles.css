@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: lightgray;
+}
+
+#image{
+    width:500px;
+    display:block;
+}
+
+.container{
+    display:inline-block;
+    margin: -2px;
+}
+
+.white{
+    background-color:whitesmoke;
+    width:160px;
+    height:50px;
+}
+
+.black{
+    background-color:black;
+    width:160px;
+    height:50px;
+}
+
+.gold{
+    background-color:darkgoldenrod;
+    display:inline-block;
+    height:299px;
+    width:25px;
+}
+
+#blackhalf{
+    height:302px;
+    width:29px;
+    display:inline-block;
+    margin: -5px;
+}
+
+#goldhalf{
+    width:68px;
+    display:inline-block;
+}
+
+#blackwide{
+    width:60px;
+    height:302px;
+    display:inline-block;
+    margin: -4px;
+}
+
+#long{
+    width:25px;
+    height:297px;
+    display:inline-block;
+}

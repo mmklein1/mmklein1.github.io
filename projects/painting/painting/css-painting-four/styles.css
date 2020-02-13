@@ -1,0 +1,15 @@
+html{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: lightgray;
+}
+
+#image{
+    display:block;
+    width:300px;
+}
+
+/*Write new CSS*/
