@@ -96,14 +96,14 @@ a:hover {
 }
 
 
-a1 {
+h1 {
     color: white;
     font-weight: bold;
     font-family: 'Archivo Black', sans-serif;
     font-size: 45px
 }
 
-a1:hover{
+h1:hover{
     color: lightpink;
 }
 
