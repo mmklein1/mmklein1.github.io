@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 30em;
+    color: orange;
+    font-family: "Arial", sans-serif;
+}
+
+
+
+#yes {
+    font-size: 200px;
+
+}
+
+
+#red {
+    color: red;
+    font-style: oblique;
+    font-size: 200px
+}
+
+
+span {
+    display: inline-block;
+}
+
+.YES {
+    font-family: 'Oswald', sans-serif;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in;
+    font-size: 600px;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0vh);
+    }
+
+    100% {
+        transform: translateY(200vh);
+    }
+}
+
+
+a {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: orange;
+    font-family: "Arial", sans-serif;
+}
+
+a:hover {
+    color: red;
+}

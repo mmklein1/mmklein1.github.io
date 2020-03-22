@@ -1,0 +1,122 @@
+body {
+	background: #6DE89E;
+}
+
+/* do NOT modify the canvas */
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: lightpink;
+	position: relative;
+}
+
+/* modify the assets below */
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 160px solid tan;
+	position: absolute;
+	top: 290px;
+	left: 400px;
+}
+
+#square {
+	width: 900px;
+	height: 150px;
+	background: yellow;
+	top: 450px;
+	left: 0px;
+	position: absolute;
+}
+
+#circle {
+	width: 110px;
+	height: 110px;
+	background: deeppink;
+	border-radius: 100px;
+	top: 100px;
+	left: 180px;
+	position: absolute;
+}
+
+#triangletwo{
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	position: absolute;
+	top: 350px;
+	left: 420px;
+    
+    
+}
+
+#squaretwo{
+    	width: 80px;
+	height: 170px;
+	background: blue;
+	top: 280px;
+	left: 100px;
+	position: absolute;
+}
+
+#parallelogram{
+  width: 10px;
+      height: 100px;
+      transform: skew(-20deg);
+      background: brown;
+    position: absolute;
+    top: 180px;
+    left: 170px;
+    
+    }
+
+#oval {
+      width: 100px;
+      height: 50px;
+      background: green;
+      border-radius: 100px / 50px;
+    position: absolute;
+    top: 220px;
+    left: 160px;
+    
+    }
+
+   #pentagon {
+      position: absolute;
+       top: 400px;
+       left: 600px;
+      width: 54px;
+      box-sizing: content-box;
+      border-width: 50px 18px 0;
+      border-style: solid;
+      border-color: green transparent;
+    }
+
+
+    #triangle-bottomright {
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid green;
+      border-left: 100px solid transparent;
+        position: absolute;
+        top: 350px;
+        left: 700px;
+    }
+
+    #triangle-bottomleft {
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid green;
+      border-right: 100px solid transparent;
+        position: absolute;
+        top: 360px;
+        left: 650px;
+        
+    }

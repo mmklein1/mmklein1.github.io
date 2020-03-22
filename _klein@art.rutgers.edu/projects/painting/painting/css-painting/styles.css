@@ -1,0 +1,59 @@
+html{
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: lightgray;
+    margin:0px;
+    padding:0px;
+}
+
+#img{
+ width:200px;   
+}
+
+/*This is the blue shape*/
+
+#blue{
+   background-color:skyblue;
+    width:200px;
+    height:55px;
+}
+
+/*COMPLETE CSS BELOW*/
+
+#yellow{
+     background-color:yellow;
+    width:200px;
+    height:40px;
+    
+}
+
+#black{
+     background-color:darkblue;
+    width:200px;
+    height:44px;
+    
+}
+
+#gold{
+     background-color:goldenrod;
+    width:200px;
+    height:36px;
+}
+
+#green{
+     background-color:forestgreen;
+    width:200px;
+    height:65px;
+    
+}
+#goldd{
+     background-color:goldenrod;
+    width:200px;
+    height:36px;
+}
+
+
