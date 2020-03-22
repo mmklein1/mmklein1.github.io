@@ -1,0 +1,91 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row {
+    margin: 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 4em;
+    color: orange;
+    font-family: "Arial", sans-serif;
+}
+
+
+
+#twitch {
+  position: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 4vw;
+  font-weight: 900;
+  text-decoration: none;
+  color: red;
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, 
+                    #FF160D, 
+                   #FF160D,
+                    #FF160D,
+                    #FF160D);
+  animation: .8s shake infinite alternate;
+top: -40px;
+    left: -20px
+    
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+
+
+
+
+
+
+#stop{
+    color: red;
+    font-weight: 900;
+}
+
+
+
+
+
+a{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: orange;
+    font-family: "Arial", sans-serif;
+}
+
+a:hover{
+    color: red;
+}

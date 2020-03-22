@@ -1,0 +1,176 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 4em;
+    color: orange;
+    font-family: "Arial", sans-serif;
+}
+
+.answer {
+    font-family: 'Courgette';
+    color: red;
+}
+
+span {
+     display: inline-block;
+    
+ }
+
+
+#aa{
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 7s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+ }
+
+@keyframes move {
+     0% {
+         transform: translateX(0vh);
+     }
+     100% {
+         transform: translateX(-55vh);
+     }
+ }
+
+#n{
+   animation-name: movetwo;
+     animation-iteration-count: infinite;
+     animation-duration: 7s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out; 
+}
+
+@keyframes movetwo {
+     0% {
+         transform: translateX(0vh);
+     }
+     100% {
+         transform: translateX(-50vh);
+     }
+ }
+
+#s{
+    animation-name: movethree;
+     animation-iteration-count: infinite;
+     animation-duration: 7s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out; 
+}
+
+@keyframes movethree {
+     0% {
+         transform: translateX(0vh);
+     }
+     100% {
+         transform: translateX(-45vh);
+     }
+ }
+
+#w{
+    animation-name: movefour;
+     animation-iteration-count: infinite;
+     animation-duration: 7s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out; 
+}
+
+@keyframes movefour {
+     0% {
+         transform: translateX(0vh);
+     }
+     100% {
+         transform: translateX(-40vh);
+     }
+ }
+
+#e{
+  animation-name: movefive;
+     animation-iteration-count: infinite;
+     animation-duration: 7s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out; 
+}
+
+@keyframes movefive {
+     0% {
+         transform: translateX(0vh);
+     }
+     100% {
+         transform: translateX(-35vh);
+     }
+ }
+
+#r{
+  animation-name: movesix;
+     animation-iteration-count: infinite;
+     animation-duration: 7s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out; 
+}
+
+@keyframes movesix {
+     0% {
+         transform: translateX(0vh);
+     }
+     100% {
+         transform: translateX(-30vh);
+     }
+ }
+
+#NO{
+    color: red;
+   font-family: 'Roboto';
+    font-size: 2em;
+    animation-name: moveno;
+     animation-iteration-count: 1;
+     animation-duration: 8s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out; 
+}
+
+@keyframes moveno {
+     0% {
+         transform: translateY(0vh);
+     }
+     100% {
+         transform: translateY(-800vh);
+     }
+ }
+
+
+#sorry{
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+
+a{
+     position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: orange;
+    font-family: "Arial", sans-serif;
+}
+
+a:hover{
+    color: red;
+}

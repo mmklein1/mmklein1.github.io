@@ -1,0 +1,61 @@
+body {
+    background: #FFFFFF;
+    margin: 30px;
+}
+
+/* do NOT modify the canvas */
+
+.canvas {
+    width: 900px;
+    height: 556px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.incomp {
+    padding-top: 120px;
+    padding-left: 30px;
+    color: darkgreen;
+    font-size: 25px;
+    position: relative;
+
+}
+
+.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    padding-left: 20px;
+    
+}
+
+.desc {
+   font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    position: absolute;
+    top: 78px;
+    left: 210px;
+    
+}
+
+.desctwo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    position: absolute;
+    top: 90px;
+    left: 243px;
+}
+
+.something{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+    position: absolute;
+    top: 230px;
+    left: 90px;
+}
+
+.during{
+    font-family: 'Cardo', serif;
+    font-size: 
+}

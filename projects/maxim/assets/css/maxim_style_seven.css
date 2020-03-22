@@ -1,0 +1,65 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 20em;
+    color: orange;
+    font-family: "Arial", sans-serif;
+}
+
+div.slide-right {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-right p {
+  animation: 1s slide-right;
+  animation-iteration-count: infinite;
+     animation-duration: 4.5s;
+     animation-direction: alternate-reverse;
+     animation-timing-function:ease-in;
+    font-family: 'Open Sans';
+    color: red;
+    font-size: 600px
+    
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -150%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 100%;
+    width: 100%;
+  }
+}
+
+
+a{
+     position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: orange;
+    font-family: "Arial", sans-serif;
+}
+
+a:hover{
+    color: red;
+}

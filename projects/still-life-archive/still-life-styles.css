@@ -1,0 +1,285 @@
+/*RESETS*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*The code above resets box-sizing & margins and padding on all elements*/
+
+
+/*YOUR CSS CODE GOES BELOW*/
+
+body {
+    background-color: darksalmon;
+    height: 100vh;
+}
+
+#Tanner{
+  
+    animation-name: diagonal;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+  width: 160px; 
+  height: 200px;
+  left:201px;
+  top:0px;
+}
+
+@keyframes diagonal {
+  from{
+    left: 201px;
+  }
+  to{
+    left: 639px;
+    top: 240px;
+  }
+}
+
+#Mckenna {
+    animation-name: diagonaltwo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+  width: 160px; 
+  height: 200px;
+  left:201px;
+  top:0px;
+}
+
+@keyframes diagonaltwo {
+  from{
+    left: 401px;
+  }
+  to{
+    left: 670px;
+    top: 740px;
+  }
+}
+
+#Studee {
+    animation-name: diagonalthree;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+  width: 160px; 
+  height: 200px;
+  left:201px;
+  top:0px;
+}
+
+@keyframes diagonalthree {
+  from{
+    left: 401px;
+  }
+  to{
+    right: 970px;
+    top: 940px;
+  }
+}
+
+
+#Liz {
+    animation-name: diagonalfour;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+  width: 160px; 
+  height: 200px;
+  left:201px;
+  top:0px;
+}
+
+@keyframes diagonalfour {
+  from{
+    left: 1091px;
+  }
+  to{
+    left: 800px;
+    top: 400px;
+  }
+}
+
+
+#Anna {
+    animation-name: diagonalfive;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+  width: 160px; 
+  height: 200px;
+  left:201px;
+  top:1000px;
+}
+
+@keyframes diagonalfive {
+  from{
+  left: 201px;
+  }
+  to{
+    left: 800px;
+    top: 100px;
+  }
+}
+
+
+#Alexa {
+    animation-name: diagonalfive;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+  width: 160px; 
+  height: 200px;
+  left:501px;
+  top:1000px;
+}
+
+@keyframes diagonalfive {
+  from{
+  left: 501px;
+  }
+  to{
+    left: 1000px;
+    top: 100px;
+  }
+}
+
+#Steve {
+    animation-name: diagonalsix;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+  width: 160px; 
+  height: 200px;
+  left:50px;
+  top:1000px;
+}
+
+@keyframes diagonalsix {
+  from{
+  left: 501px;
+  }
+  to{
+    left: 50px;
+    top: 100px;
+  }
+}
+
+
+#Carissa {
+    animation-name: diagonalseven;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+  width: 160px; 
+  height: 200px;
+  left:50px;
+  top:500px;
+}
+
+@keyframes diagonalseven {
+  from{
+  left: 501px;
+  }
+  to{
+    left: 100px;
+    top: 50px;
+  }
+}
+
+
+#Sarah {
+    animation-name: diagonaleight;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+  width: 160px; 
+  height: 200px;
+  left:100px;
+  top:500px;
+}
+
+@keyframes diagonaleight {
+  from{
+  left: 100px;
+  }
+  to{
+    left: 10px;
+    top: 50px;
+  }
+}
+
+#Lia {
+    animation-name: diagonaleight;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+  width: 160px; 
+  height: 200px;
+  left: 5px;
+  top:900px;
+}
+
+@keyframes diagonaleight {
+  from{
+  left: 1000px;
+  }
+  to{
+    left: 100px;
+    top: 50px;
+  }
+}
+
+
+#still{
+   color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+/*Link design - feel free to change*/
+
+a {
+    font-family: Arial, sans-serif;
+    color: lightsalmon;
+    font-size: 4em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: floralwhite;
+}
+
+.links {
+    margin: 10px;
+    display: inline-block;
+}

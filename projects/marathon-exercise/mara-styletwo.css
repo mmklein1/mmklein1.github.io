@@ -1,0 +1,105 @@
+body {
+    background: #FFCD40;
+    margin: 30px;
+}
+
+/* do NOT modify the canvas */
+
+.canvas {
+    width: 900px;
+    height: 556px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.incomp {
+    padding-top: 120px;
+    padding-left: 30px;
+    color: darkgreen;
+    font-size: 25px;
+    position: relative;
+
+}
+
+#Robert {
+    font-size: 70px;
+    font-family: 'PT Serif', serif;
+    color: darkgreen;
+    margin-top: -80px;
+    position: absolute;
+    top: 210px;
+    left: 220px;
+}
+
+.Creeley {
+    font-size: 70px;
+    font-family: 'PT Serif', serif;
+    color: darkgreen;
+    margin-top: -80px;
+    position: absolute;
+    top: 235px;
+    left: 420px;
+
+}
+
+.collab {
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    left: 175px;
+
+}
+
+
+.when {
+    color: darkorange;
+    font-size: 22px;
+    margin: 2px;
+    padding-top: 450px;
+    padding-left: 200px;
+
+}
+
+.whentwo {
+    color: darkorange;
+    font-size: 22px;
+    margin: 2px;
+    padding-left: 200px;
+}
+
+.details {
+    color: darkorange;
+    font-size: 15px;
+    margin: 2px;
+    padding-left: 200px;
+}
+
+.detailsone {
+    color: darkorange;
+    font-size: 15px;
+    margin: 2px;
+    padding-left: 200px;
+    padding-top: 25px;
+
+}
+
+#square {
+    width: 50px;
+    height: 2px;
+    background: darkgreen;
+    top: 201px;
+    left: 667px;
+    position: absolute;
+}
+
+
+#squaretwo{
+      width: 210px;
+    height: 2px;
+    background: darkgreen;
+    top: 201px;
+    left: 220px;
+    position: absolute;
+}
