@@ -96,3 +96,25 @@ a:hover {
 }
 
 
+a1 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 45px
+}
+
+a1:hover{
+    color: lightpink;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
