@@ -92,9 +92,13 @@ a:visited {
 }
 
 a:hover {
-  color: tan;
+  color: lightpink;
 }
 
+a{color: white;
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 45px}
 
 h1 {
     color: white;
@@ -103,9 +107,6 @@ h1 {
     font-size: 45px
 }
 
-h1:hover{
-    color: lightpink;
-}
 
 .column {
   float: left;
