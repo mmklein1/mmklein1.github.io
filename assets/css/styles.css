@@ -109,13 +109,21 @@ h1 {
 
 
 .column {
-  float: left;
+  padding: 20px;
+    display: block;
+  margin-left: 50px;
+  margin-right: 500px;
   width: 33.33%;
-  padding: 5px;
+  
 }
 
-.row::after {
+.row:after {
   content: "";
   clear: both;
-  display: table;
+     display: block;
+  margin-left: center;
+  margin-right: center;
+  width: 33.33%;
+
+  
 }
