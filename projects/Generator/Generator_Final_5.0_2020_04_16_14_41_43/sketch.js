@@ -208,6 +208,14 @@ function draw() {
     flooor[i].show();
     
   }
+  
+  let couchMax = map(shapeSlider.value(),0,maxShapes,0,numOfCouch);
+  
+  for (let i = 0; i < couchMax; i++) {
+    couch[i].move();
+    couch[i].show();
+    
+  }
 
   let lampMax = map(shapeSlider.value(),0,maxShapes,0,numOfLamp);
   
