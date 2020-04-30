@@ -18,23 +18,23 @@ function setup() {
   background("green");
   
   p = createP("City");
-  p.position(120, 320);
+  p.position(120, 420);
   p.addClass("starcity");
   
   dunkcity = createP("e_city");
-  dunkcity.position(140, 340);
+  dunkcity.position(140, 440);
   dunkcity.addClass("dunkcity");
   
   let word = createP("America Runs On..."); 
-  word.position(10, 300); //position on canvas
+  word.position(10, 400); //position on canvas
   word.addClass("key");
   
   let starbucks = createP("Starbucks in");
-  starbucks.position(35, 320);
+  starbucks.position(35, 420);
   starbucks.addClass("starbucks");
   
   let dunkin = createP("Dunkin Donuts in");
-  dunkin.position(35, 340);
+  dunkin.position(35, 440);
   dunkin.addClass("dunkin");
 
 
@@ -94,11 +94,11 @@ function setup() {
 function draw(){
   
   fill (255);
-  ellipse(30, 340, 6);
+  ellipse(30, 440, 6);
   
   fill("orange");
   noStroke();
-  ellipse(30, 360, 6);
+  ellipse(30, 460, 6);
   
 
   for(let i = 0; i < usaStarbucks.length; i++){
