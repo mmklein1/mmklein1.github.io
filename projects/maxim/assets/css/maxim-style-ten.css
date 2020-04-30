@@ -86,5 +86,12 @@ span {
      100% {
          transform: translateX(0vw);
      }
+    
+  a{
+  position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: orange;
+    font-family: "Arial", sans-serif; 
  }
 
