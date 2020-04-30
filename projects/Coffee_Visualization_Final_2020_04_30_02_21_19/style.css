@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.key {
+  
+   font-size:0.7em;
+  font-weight: bold;
+  font-family: 'Archivo Black', sans-serif;
+  color:white;
+  padding:2px;
+}
+
+.starbucks {
+   font-size:0.7em;
+  font-weight: bold;
+  font-family: 'Archivo Black', sans-serif;
+  color:white;
+  padding:2px;
+}
+
+.dunkin{
+   font-size:0.7em;
+  font-weight: bold;
+  font-family: 'Archivo Black', sans-serif;
+  color:white;
+  padding:2px;
+}
+
+.starcity{
+  font-size:0.7em;
+  font-weight: bold;
+  font-family: 'Archivo Black', sans-serif;
+  color:white;
+  padding:2px;
+
+  
+}
+
+.dunkcity{
+  font-size:0.7em;
+  font-weight: bold;
+  font-family: 'Archivo Black', sans-serif;
+  color:orange;
+  padding:2px;
+  
+  
+}
