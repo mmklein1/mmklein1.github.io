@@ -1,0 +1,125 @@
+
+body {
+    margin: 100px;
+    font-family:Helvetica;
+    text-align: center;
+    background-image: url("/screenshots/clouds.jpg");
+    max-height: 100px;
+    max-width: 1000px;
+    min-height: 50px;
+    min-width: 500px;
+}
+
+a {
+    font-family: Helvetica-Bold;
+    font-size: 80px;
+    color:lightblue;
+    background-color:steelblue;
+    margin: 0px 30px;
+    letter-spacing: 3px;
+
+    
+}
+
+h2{
+    font-size: 20px;
+   margin: 25px 0px 45px 0px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    line-height: 60%;
+    text-align: center;
+}
+
+h2:hover{
+    color: whitesmoke;
+}
+
+p1{
+    letter-spacing: 10px;
+    line-height: 20%;
+    margin: 25px;   
+
+}
+
+p6{
+    border: double;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+a:hover{
+    background-color: darkblue;
+}
+
+a:active{
+    border: double 10px;
+}
+
+a:link {
+    color: lightblue;
+}
+
+a:visited{
+     border: double;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.cursorone {cursor: ns-resize;}
+
+.cursortwo {cursor: not-allowed;}
+
+img{
+    position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -3;
+}
+
+::selection {
+    background-color: whitesmoke;
+}
+
+#box {
+  width: 500px;
+  height: 100px;
+  background: lightblue;
+  position: relative;
+  animation: mymove;
+    animation-name: mymove;
+    z-index: -2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+  from {top: 50px; left: 250px;}
+  to {top: 1000px; left: 250px;}
+}
+
+#beatles{
+    width: 200px;
+  height: 10px;
+    background: none;
+     position: relative;
+    animation: side 10s infinite;
+}
+
+@keyframes side {
+  from {left: 0px;}
+  to {left: 900px;}
+}
+
+#boxtwo{
+    width: 200px;
+  height: 100px;
+  background: white;
+  position: relative;
+  animation: box 20s infinite;
+    z-index: -1;
+}
+
+@keyframes box{
+   from {top: 50px; left: 400px;}
+  to {top: 1000px; left: 400px;}
+}
