@@ -1,0 +1,48 @@
+p {
+    color:#ED1C24;
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100px;
+    margin: 150px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 500px;
+    top: -300px;
+}
+
+body{
+    background-image: url("../Hypehq/imgs/Hypebackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color:mediumorchid;
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+    
+}
+
+
+#box{
+    width: 1300px;
+  height: 700px;
+  background: lightblue;
+  position: relative;
+    left: 130px;
+    top: -250px;
+    margin: 100px;
+    margin-top: -30px;
+    padding-left: 55px;
+    padding-top: 20px;
+    
+    
+}
+
+#logo{
+    position: relative;
+    padding: 50px;
+    
+}
+
